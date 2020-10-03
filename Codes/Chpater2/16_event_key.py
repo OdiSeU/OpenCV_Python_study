@@ -1,6 +1,6 @@
 import cv2
 
-img_file = '../Images/girl.jpg'
+img_file = '../../Images/girl.jpg'
 img = cv2.imread(img_file)
 
 x, y = 100, 100

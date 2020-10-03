@@ -1,6 +1,6 @@
 import cv2
 
-file_path = '../Images/girl.jpg'
+file_path = '../../Images/girl.jpg'
 img = cv2.imread(file_path)
 img_gray = cv2.imread(file_path, cv2.IMREAD_GRAYSCALE)
 

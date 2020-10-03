@@ -1,6 +1,6 @@
 import cv2
 
-img_file = '../Images/girl.jpg'
+img_file = '../../Images/girl.jpg'
 img = cv2.imread(img_file, cv2.IMREAD_GRAYSCALE)
 
 if img is not None:
