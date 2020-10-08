@@ -34,7 +34,7 @@ def onMouse(event, x, y, flags, param):
             else:
                 cv2.imshow('img', img)
                 print('Drag Error')
-img = cv2.imread('../../images/sunset.jpg')
+img = cv2.imread('../../Images/sunset.jpg')
 cv2.imshow('img', img)
 cv2.setMouseCallback('img', onMouse)
 cv2.waitKey(0)

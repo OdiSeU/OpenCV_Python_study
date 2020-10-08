@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('../../images/sunset.jpg')
+img = cv2.imread('../../Images/sunset.jpg')
 
 x=770; y=225; w=77; h=77;
 roi = img[y:y+h, x:x+w]
