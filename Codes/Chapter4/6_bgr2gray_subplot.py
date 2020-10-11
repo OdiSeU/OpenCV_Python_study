@@ -20,6 +20,3 @@ for i, (key, value) in enumerate(imgs.items()):
     plt.imshow(value, cmap='gray')
     plt.xticks([]); plt.yticks([])
 plt.show()
-
-cv2.waitKey(0)
-cv2.destroyAllWindows()
