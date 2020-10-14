@@ -1,7 +1,7 @@
 import cv2
 
 title = 'mouse event'
-img = cv2.imread('../Images/blank_500px.jpg')
+img = cv2.imread('../../Images/blank_500px.jpg')
 cv2.imshow(title, img)
 
 def onMouse(event, x, y, flags, param):
