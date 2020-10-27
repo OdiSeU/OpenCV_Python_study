@@ -32,7 +32,7 @@ def thresholdOtsu_min(img):
             min_result = result
             trs = std
     #임계값, 임계값 기준으로 스레시홀드한 행렬 반환
-    return trs, np.where(img > trs, trs, 0)
+    return trs, np.where(img > trs, 255, 0)
 
 
 #오츠 알고리즘.pptx 2페이지 참고
@@ -63,7 +63,7 @@ def thresholdOtsu_max(img):
             max_result = result
             trs = std
     #임계값, 임계값 기준으로 스레시홀드한 행렬 반환
-    return trs, np.where(img > trs, trs, 0)
+    return trs, np.where(img > trs, 255, 0)
 
 #비교를 위한 원본
 img = cv2.imread('../../Images/DrG.jpg', cv2.IMREAD_GRAYSCALE)
